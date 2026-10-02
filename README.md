@@ -1,91 +1,114 @@
-# ynab-ofx
+# ynab-generator
 
-Convert Norwegian bank statement files to OFX 2.1.1 (XML) for YNAB import.
+[![Tests](https://github.com/kvasbo/ynab-generator/actions/workflows/test.yml/badge.svg)](https://github.com/kvasbo/ynab-generator/actions/workflows/test.yml)
 
-## Supported sources
+Converts transaction exports from Norwegian banks into OFX files that you can
+import into [YNAB](https://www.ynab.com/) with its file import.
 
-Files are matched by extension and then by their contents, so filenames don't
-matter.
+## Supported banks
 
-| Source | File | Recognised by | Output |
-|---|---|---|---|
-| Bulder (all accounts in one export) | `.csv` | `Originalt Beløp;Original Valuta;Til konto;…` header | OFX BANK, one file per account |
-| Handelsbanken account | `.csv` | `Bokført dato;Rentedato;Beskrivelse` header | OFX BANK |
-| Handelsbanken Platinum kredittkort | `.pdf` | "Platinum Kredittkort" on the first pages | OFX CREDITCARD |
-| SpareBank 1 account or loan | `.csv` | `Dato;Beskrivelse;Rentedato;Inn;Ut;Til konto;Fra konto` header | OFX BANK, one file per account |
-| SAS MasterCard | `.xlsx` | "Transaksjonseksport" sheet | OFX CREDITCARD |
+| Bank / card | Export file | Output |
+|---|---|---|
+| Bulder (export of all accounts) | `.csv` | One bank OFX per account |
+| Handelsbanken account | `.csv` | Bank OFX |
+| Handelsbanken Platinum kredittkort | `.pdf` statement | Credit card OFX |
+| SpareBank 1 account or loan | `.csv` | One bank OFX per account |
+| SAS MasterCard | `.xlsx` ("Transaksjonseksport") | Credit card OFX |
 
-Rows with a zero amount (e.g. Bulder e-faktura notices) are dropped.
+Files are recognised by their contents, not their names, so you can keep the
+filenames the bank gives you.
 
-For Bulder and SpareBank 1, each row goes to the account its amount belongs
-to (money in → "Til konto", money out → "Fra konto"), so both halves of an
-internal transfer end up in the right account and YNAB pairs them up.
+## Requirements
 
-## Setup
+Ruby 3.2 or newer and Bundler.
+
+## Installation
 
 ```sh
+git clone https://github.com/kvasbo/ynab-generator.git
+cd ynab-generator
 bundle install
 ```
 
 ## Usage
 
-```sh
-bin/convert [input_dir] [output_dir]    # defaults: data output
-```
-
-Walks `input_dir` recursively for `.csv`, `.pdf` and `.xlsx` files, picks a
-parser for each, and writes `.ofx` files into `output_dir`, mirroring the
-input's subfolders. **`output_dir` is deleted and recreated on every run.**
-Unrecognised files and files with no transactions are skipped with a `SKIP`
-line.
+Put your bank exports in `data/` (it is git-ignored) and run:
 
 ```sh
-bin/convert spec/fixtures/ output/
-# OK   bulder_export_all.csv -> output/bulder_export_all_BULDER_BRUKSKONTO.ofx (16 txns)
-# OK   bulder_export_all.csv -> output/bulder_export_all_Buffer.ofx (2 txns)
-# ...
-# OK   handelsbank-mc.pdf -> output/handelsbank-mc.ofx (161 txns)
-# OK   handelsbank_csv_eksport.csv -> output/handelsbank_csv_eksport.ofx (5 txns)
-# OK   sas-mc.xlsx -> output/sas-mc.ofx (70 txns)
-# OK   sb1-konto.csv -> output/sb1-konto.ofx (2 txns)
-# OK   sb1-laan.csv -> output/sb1-laan.ofx (1 txns)
-# SKIP sb1-sparekonto.csv: no transactions
+bin/convert                      # reads data/, writes output/
+bin/convert <input_dir> <output_dir>
 ```
 
-## Tests
+The input folder is searched recursively for `.csv`, `.pdf` and `.xlsx` files
+and the `.ofx` files are written to the same subfolders under the output
+folder. `.ofx` files left from an earlier run are removed first; anything else
+in the output folder is left alone. Files that aren't recognised, or that
+contain no transactions, are skipped with a `SKIP` line.
+
+Then import each `.ofx` file into the matching account in YNAB.
+
+Example, using the test fixtures:
+
+```
+$ bin/convert spec/fixtures output
+OK   bulder_export_all.csv -> output/bulder_export_all_BULDER_BRUKSKONTO.ofx (16 txns)
+OK   bulder_export_all.csv -> output/bulder_export_all_Buffer.ofx (2 txns)
+OK   bulder_export_all.csv -> output/bulder_export_all_Regninger.ofx (6 txns)
+OK   bulder_export_all.csv -> output/bulder_export_all_BULDER_BOLIGLAN.ofx (2 txns)
+OK   handelsbank-mc-short.pdf -> output/handelsbank-mc-short.ofx (3 txns)
+OK   handelsbank-mc.pdf -> output/handelsbank-mc.ofx (30 txns)
+OK   handelsbank_csv_eksport.csv -> output/handelsbank_csv_eksport.ofx (5 txns)
+OK   sas-mc.xlsx -> output/sas-mc.ofx (70 txns)
+OK   sb1-konto.csv -> output/sb1-konto.ofx (2 txns)
+OK   sb1-laan.csv -> output/sb1-laan.ofx (1 txns)
+SKIP sb1-sparekonto.csv: no transactions
+```
+
+## How the conversion works
+
+- **Stable IDs.** Each transaction gets an ID derived from its date, amount,
+  description and position among identical transactions that day. Converting
+  and importing the same export twice gives the same IDs, so YNAB won't create
+  duplicates.
+- **One file per account.** Bulder and SpareBank 1 exports can contain several
+  accounts. Each row is assigned to the account its amount belongs to (money
+  in → "Til konto", money out → "Fra konto"), so both sides of a transfer
+  between your own accounts end up in the right place and YNAB can match them.
+- **Zero amounts are dropped,** such as Bulder's e-faktura notices.
+- **Dates** are the booking date (bokført) where the bank gives more than one.
+- **Credit cards:** charges become outflows and payments become inflows. For
+  purchases in foreign currency the original amount is kept in the memo.
+- **Payee** names are cut to 32 characters (the OFX limit); the full text is
+  kept in the memo.
+
+## Development
 
 ```sh
 bundle exec rspec
 ```
 
-Each parser has a spec in `spec/parsers/` that runs against small inline
-files built in the test (for edge cases) and against full exports in
-`spec/fixtures/`.
+Tests run on GitHub Actions for Ruby 3.2, 3.3 and 3.4.
 
-The fixtures are in the banks' real formats but contain only fictional data
-(names, account numbers, merchants and amounts). The Handelsbanken PDFs are
-generated by `spec/fixtures/build_handelsbank_mc_pdf.rb`. To support a new
-format, add an anonymised export to `spec/fixtures/` and write the spec first.
-Never commit a real statement.
+Each parser has a spec in `spec/parsers/` that uses small files built inside
+the test for edge cases, plus a complete export from `spec/fixtures/`. The
+fixtures use the banks' real formats but only fictional data. The
+Handelsbanken PDFs are generated by `spec/fixtures/build_handelsbank_mc_pdf.rb`.
 
-## Layout
+**Never commit a real bank statement.** To add a bank: add an anonymised export
+to `spec/fixtures/`, write the spec, then add a parser in
+`lib/ynab_ofx/parsers/` (subclass `Parsers::Base`, set `extensions` and a
+`signature` regex that matches the file's contents, implement
+`read_statements`) and register it in `lib/ynab_ofx/detector.rb`.
 
 ```
-bin/convert                       CLI entry
-lib/ynab_ofx/cli.rb               directory walk + dispatch
-lib/ynab_ofx/detector.rb          file contents → parser
-lib/ynab_ofx/parsers/base.rb      shared parse (drops zero rows) + helpers
-lib/ynab_ofx/parsers/*.rb         one class per file type
-lib/ynab_ofx/transaction.rb       value object
-lib/ynab_ofx/statement.rb         value object
-lib/ynab_ofx/ofx_writer.rb        OFX 2.1.1 XML rendering
-spec/parsers/                     one spec per parser
-spec/fixtures/                    anonymised bank exports used by the specs
+bin/convert                     command-line entry point
+lib/ynab_ofx/cli.rb             folder walk, output files
+lib/ynab_ofx/detector.rb        picks a parser from the file contents
+lib/ynab_ofx/parsers/base.rb    shared parsing, drops zero amounts
+lib/ynab_ofx/parsers/*.rb       one parser per export format
+lib/ynab_ofx/ofx_writer.rb      OFX 2.1.1 output
+spec/                           tests and fixtures
 ```
-
-FITIDs are deterministic SHA1(date|amount|description|same-day-index) so
-re-importing the same source file produces the same IDs and YNAB will not
-duplicate transactions.
 
 ## License
 

@@ -7,6 +7,7 @@ require "ynab_ofx/parsers/handelsbank_csv"
 require "ynab_ofx/parsers/bulder_csv"
 require "ynab_ofx/parsers/sparebank1_csv"
 require "ynab_ofx/parsers/sas_mc"
+require "ynab_ofx/parsers/dnb"
 require "ynab_ofx/detector"
 require "ynab_ofx/cli"
 

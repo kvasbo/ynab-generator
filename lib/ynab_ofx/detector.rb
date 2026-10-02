@@ -5,7 +5,8 @@ module YnabOfx
       Parsers::HandelsbankCsv,
       Parsers::BulderCsv,
       Parsers::Sparebank1Csv,
-      Parsers::SasMc
+      Parsers::SasMc,
+      Parsers::Dnb
     ].freeze
 
     module_function
@@ -29,7 +30,7 @@ module YnabOfx
       case ext
       when ".pdf"  then pdf_fingerprint(path)
       when ".xlsx" then xlsx_fingerprint(path)
-      when ".csv"  then csv_fingerprint(path)
+      when ".csv", ".txt" then csv_fingerprint(path)
       else ""
       end
     end

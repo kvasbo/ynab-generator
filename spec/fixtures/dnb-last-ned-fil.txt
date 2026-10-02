@@ -1,0 +1,11 @@
+"Dato";"Forklaring";"Rentedato";"Ut fra konto";"Inn på konto"
+"02.10.2026";"Overføring  Reservert transaksjon ";"02.10.2026";"";300
+"28.09.2026";"Overføring Innland  12340000001 Ola Nordmann  ";"28.09.2026";"";500
+"24.09.2026";"Varekjøp Matbutikken Sentr Storgata Oslo Dato 24.09 kl. 18.40 ";"25.09.2026";34.9;""
+"22.09.2026";"E-varekjøp Vipps Kaffebaren s Oslo Dato 22.09 kl. 17.06 ";"23.09.2026";45;""
+"22.09.2026";"E-varekjøp Vipps Kaffebaren s Oslo Dato 22.09 kl. 17.10 ";"23.09.2026";45;""
+"22.09.2026";"Overføring  1234567890 Kari Nordmann Tpp: Vipps ";"23.09.2026";"";75
+"23.08.2026";"Visa  100031  Nok 99,00 Nettbutikk AS ";"24.08.2026";99;""
+"29.06.2026";"Visa  100032  Dkk 176,00 Kafe Hygge Valutakurs: 1,5235";"01.07.2026";268.14;""
+"28.06.2026";"Overføring  1234567891 Ola Nordmann Tpp: Vipps Mobilepay AS";"29.06.2026";5;""
+"27.06.2026";"Overføring  12340000002 Kari Nordmann Bytte Bank ";"29.06.2026";"";1250.5

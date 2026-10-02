@@ -3,6 +3,8 @@ RSpec.describe YnabOfx::Detector do
     {
       "bulder_export_all.csv" => YnabOfx::Parsers::BulderCsv,
       "handelsbank_csv_eksport.csv" => YnabOfx::Parsers::HandelsbankCsv,
+      "dnb-last-ned-fil.txt" => YnabOfx::Parsers::Dnb,
+      "dnb-excel.xlsx" => YnabOfx::Parsers::Dnb,
       "sb1-konto.csv" => YnabOfx::Parsers::Sparebank1Csv,
       "sb1-laan.csv" => YnabOfx::Parsers::Sparebank1Csv,
       "sb1-sparekonto.csv" => YnabOfx::Parsers::Sparebank1Csv,
@@ -21,9 +23,9 @@ RSpec.describe YnabOfx::Detector do
     end
 
     it "rejects unsupported extensions" do
-      path = write_temp_file("notes.txt", "hello")
+      path = write_temp_file("notes.doc", "hello")
       expect { described_class.for(path) }
-        .to raise_error(YnabOfx::UnknownFileTypeError, /extension \.txt/)
+        .to raise_error(YnabOfx::UnknownFileTypeError, /extension \.doc/)
     end
 
     it "rejects a supported extension with unrecognised contents" do

@@ -3,7 +3,7 @@ require "pathname"
 
 module YnabOfx
   class CLI
-    SUPPORTED_EXT = %w[.pdf .xlsx .csv].freeze
+    SUPPORTED_EXT = %w[.pdf .xlsx .csv .txt].freeze
     DEFAULT_INPUT = "data".freeze
     DEFAULT_OUTPUT = "output".freeze
 

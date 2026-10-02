@@ -33,6 +33,12 @@ RSpec.describe YnabOfx::CLI do
     expect(File.read(File.join(out_dir, "notes.txt"))).to eq("keep me")
   end
 
+  it "picks up .txt exports" do
+    FileUtils.cp(fixture_path("dnb-last-ned-fil.txt"), in_dir)
+    run(in_dir, out_dir)
+    expect(File).to exist(File.join(out_dir, "dnb-last-ned-fil.ofx"))
+  end
+
   it "skips files it does not recognise" do
     File.write(File.join(in_dir, "other.csv"), "a,b\n1,2\n")
     expect { described_class.run([in_dir, out_dir]) }.to output(/SKIP other\.csv/).to_stdout

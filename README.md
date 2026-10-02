@@ -10,6 +10,7 @@ import into [YNAB](https://www.ynab.com/) with its file import.
 | Bank / card | Export file | Output |
 |---|---|---|
 | Bulder (export of all accounts) | `.csv` | One bank OFX per account |
+| DNB account | `.txt` ("Last ned fil") or `.xlsx` | Bank OFX |
 | Handelsbanken account | `.csv` | Bank OFX |
 | Handelsbanken Platinum kredittkort | `.pdf` statement | Credit card OFX |
 | SpareBank 1 account or loan | `.csv` | One bank OFX per account |
@@ -39,7 +40,7 @@ bin/convert                      # reads data/, writes output/
 bin/convert <input_dir> <output_dir>
 ```
 
-The input folder is searched recursively for `.csv`, `.pdf` and `.xlsx` files
+The input folder is searched recursively for `.csv`, `.txt`, `.pdf` and `.xlsx` files
 and the `.ofx` files are written to the same subfolders under the output
 folder. `.ofx` files left from an earlier run are removed first; anything else
 in the output folder is left alone. Files that aren't recognised, or that
@@ -55,6 +56,8 @@ OK   bulder_export_all.csv -> output/bulder_export_all_BULDER_BRUKSKONTO.ofx (16
 OK   bulder_export_all.csv -> output/bulder_export_all_Buffer.ofx (2 txns)
 OK   bulder_export_all.csv -> output/bulder_export_all_Regninger.ofx (6 txns)
 OK   bulder_export_all.csv -> output/bulder_export_all_BULDER_BOLIGLAN.ofx (2 txns)
+OK   dnb-excel.xlsx -> output/dnb-excel.ofx (9 txns)
+OK   dnb-last-ned-fil.txt -> output/dnb-last-ned-fil.ofx (9 txns)
 OK   handelsbank-mc-short.pdf -> output/handelsbank-mc-short.ofx (3 txns)
 OK   handelsbank-mc.pdf -> output/handelsbank-mc.ofx (30 txns)
 OK   handelsbank_csv_eksport.csv -> output/handelsbank_csv_eksport.ofx (5 txns)
@@ -74,7 +77,11 @@ SKIP sb1-sparekonto.csv: no transactions
   accounts. Each row is assigned to the account its amount belongs to (money
   in → "Til konto", money out → "Fra konto"), so both sides of a transfer
   between your own accounts end up in the right place and YNAB can match them.
-- **Zero amounts are dropped,** such as Bulder's e-faktura notices.
+- **Zero amounts are dropped,** such as Bulder's e-faktura notices. DNB's
+  reserved (not yet booked) transactions are dropped too, since their text
+  changes once they are booked.
+- **DNB exports have no account number,** so every DNB file gets the account
+  ID `DNB`. Import each one into the right account by hand.
 - **Dates** are the booking date (bokført) where the bank gives more than one.
 - **Credit cards:** charges become outflows and payments become inflows. For
   purchases in foreign currency the original amount is kept in the memo.

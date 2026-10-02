@@ -1,0 +1,307 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Producer (ynab-ofx fixture builder) >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1838 >>
+stream
+BT /F2 8 Tf 1 0 0 1 496 790 Tm (Platinum Kredittkort) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 775 Tm (Retur: Handelsbanken, Postboks 1342 Vika, 0113 Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 766 Tm (Fakturanr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 490.73 766 Tm (10000000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 757 Tm (Fakturadato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 757 Tm (31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 748 Tm (Forfallsdato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 748 Tm (15.04.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 739 Tm (Periode:) Tj ET
+BT /F1 8 Tf 1 0 0 1 483.62 739 Tm (01.03.26 - 31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 730 Tm (KID) Tj ET
+BT /F1 8 Tf 1 0 0 1 499.62 730 Tm (100000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 721 Tm (Bankkonto) Tj ET
+BT /F1 8 Tf 1 0 0 1 504.07 721 Tm (90001234575) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 712 Tm (Side) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.76 712 Tm (1 av 3) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 730 Tm (Kari Nordmann) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 721 Tm (Storgata 1) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 712 Tm (0155 OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 392 690 Tm (Kredittramme         kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 517.42 690 Tm (50.000,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 681 Tm (- Benyttet kreditt      kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 514.75 681 Tm (-20.929,49) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 640 Tm (Overført saldo fra forrige periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 640 Tm (-2.500,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 631 Tm (Innbetalinger denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 537.43 631 Tm (0,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 622 Tm (Forbruk denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 514.75 622 Tm (-18.429,49) Tj ET
+BT /F2 8 Tf 1 0 0 1 57 613 Tm (=  Saldo i vår favør) Tj ET
+BT /F2 8 Tf 1 0 0 1 514.75 613 Tm (-20.929,49) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 595 Tm (Minimum å betale - forfall 15.04.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 595 Tm (1.000,00) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 6438 >>
+stream
+BT /F2 8 Tf 1 0 0 1 496 777 Tm (Platinum Kredittkort) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 768 Tm (Fakturanr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 490.73 768 Tm (10000000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 759 Tm (Fakturadato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 759 Tm (31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 750 Tm (Forfallsdato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 750 Tm (15.04.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 741 Tm (Periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 483.62 741 Tm (01.03.26 - 31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 732 Tm (Kontonr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 504.07 732 Tm (90001234575) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 723 Tm (Side) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.76 723 Tm (2 av 3) Tj ET
+BT /F2 6 Tf 1 0 0 1 44 690 Tm (Nominell rente er 15,9%) Tj ET
+BT /F1 6 Tf 1 0 0 1 44 675 Tm (Betaler alt ved første faktura) Tj ET
+BT /F1 6 Tf 1 0 0 1 221.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 373.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 411.65 675 Tm (15.000) Tj ET
+BT /F1 6 Tf 1 0 0 1 476.65 675 Tm (15.000) Tj ET
+BT /F1 6 Tf 1 0 0 1 562.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 44 666 Tm (Betaling over 3 måneder) Tj ET
+BT /F1 6 Tf 1 0 0 1 214.99 666 Tm (396) Tj ET
+BT /F1 6 Tf 1 0 0 1 373.66 666 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 411.65 666 Tm (15.396) Tj ET
+BT /F1 6 Tf 1 0 0 1 479.99 666 Tm (5.132) Tj ET
+BT /F1 6 Tf 1 0 0 1 547.65 666 Tm (17.07%) Tj ET
+BT /F2 8 Tf 1 0 0 1 44 640 Tm (Kari Nordmann, Transaksjoner denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 625 Tm (Bruks) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 625 Tm (Bokført) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 625 Tm (Brukersted) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 625 Tm (Valuta) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.76 625 Tm (Beløp) Tj ET
+BT /F1 8 Tf 1 0 0 1 427.76 625 Tm (Gebyr) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.64 625 Tm (Beløp kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 618 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 618 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 605 Tm (28.02.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 605 Tm (01.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 605 Tm (Kebabsjappa Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 605 Tm (-189,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 605 Tm (-189,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 594 Tm (28.02.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 594 Tm (01.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 594 Tm (TM *TICKETMASTER BERLIN) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 594 Tm (EUR) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 594 Tm (-89,50) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 594 Tm (-1.031,23) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 583 Tm (01.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 583 Tm (02.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 583 Tm (NETTBUTIKKEN AS Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 583 Tm (-412,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 583 Tm (-412,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 572 Tm (01.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 572 Tm (02.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 572 Tm (SVOMMEHALLEN Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 572 Tm (-60,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 572 Tm (-60,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 561 Tm (01.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 561 Tm (02.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 561 Tm (SVOMMEHALLEN Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 561 Tm (-60,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 561 Tm (-60,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 550 Tm (02.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 550 Tm (02.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 550 Tm (EasyPark AS easypark.no) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 550 Tm (-38,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 550 Tm (-38,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 539 Tm (03.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 539 Tm (04.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 539 Tm (PAYPAL *STREAMING 35314369001) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 539 Tm (-129,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 539 Tm (-129,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 528 Tm (03.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 528 Tm (04.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 528 Tm (RUTERAPPEN Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 528 Tm (-44,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 528 Tm (-44,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 517 Tm (04.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 517 Tm (05.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 517 Tm (VINMONOPOLET OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 517 Tm (-299,90) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 517 Tm (-299,90) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 506 Tm (05.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 506 Tm (06.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 506 Tm (BURGERBAREN Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 506 Tm (-245,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 506 Tm (-245,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 495 Tm (05.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 495 Tm (06.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 495 Tm (BURGERBAREN Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 495 Tm (-245,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 495 Tm (-245,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 484 Tm (06.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 484 Tm (06.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 484 Tm (APPLE.COM/BILL CORK) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 484 Tm (-99,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 484 Tm (-99,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 473 Tm (08.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 473 Tm (08.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 473 Tm (Vipps*Elektronikk AS Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 473 Tm (-2.199,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 473 Tm (-2.199,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 462 Tm (10.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 462 Tm (10.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 462 Tm (CIRCLE K Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 462 Tm (-655,40) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 462 Tm (-655,40) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 451 Tm (11.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 451 Tm (12.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 451 Tm (CLAS OHL OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 451 Tm (-317,80) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 451 Tm (-317,80) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 440 Tm (13.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 440 Tm (14.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 440 Tm (Mcompany ApS +4500000000) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 440 Tm (-899,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 440 Tm (-899,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 429 Tm (14.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 429 Tm (16.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 429 Tm (FERJESELSKAPET OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 429 Tm (-1.875,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 429 Tm (-1.875,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 418 Tm (15.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 418 Tm (18.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 418 Tm (FLY1000000000101 GARDERMOEN) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 418 Tm (-1.499,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 418 Tm (-1.499,00) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 4406 >>
+stream
+BT /F2 8 Tf 1 0 0 1 496 777 Tm (Platinum Kredittkort) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 768 Tm (Fakturanr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 490.73 768 Tm (10000000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 759 Tm (Fakturadato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 759 Tm (31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 750 Tm (Forfallsdato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 750 Tm (15.04.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 741 Tm (Periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 483.62 741 Tm (01.03.26 - 31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 732 Tm (Kontonr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 504.07 732 Tm (90001234575) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 723 Tm (Side) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.76 723 Tm (3 av 3) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 700 Tm (Bruks) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 700 Tm (Bokført) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 700 Tm (Brukersted) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 700 Tm (Valuta) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.76 700 Tm (Beløp) Tj ET
+BT /F1 8 Tf 1 0 0 1 427.76 700 Tm (Gebyr) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.64 700 Tm (Beløp kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 693 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 693 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 680 Tm (15.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 680 Tm (18.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 680 Tm (FLY1000000000102 GARDERMOEN) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 680 Tm (-1.499,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 680 Tm (-1.499,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 669 Tm (17.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 669 Tm (17.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 669 Tm (90001234567) Tj ET
+BT /F1 8 Tf 1 0 0 1 378.86 669 Tm (5.000,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 669 Tm (5.000,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 658 Tm (18.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 658 Tm (19.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 658 Tm (IKEA OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 658 Tm (-2.345,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 658 Tm (-2.345,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 647 Tm (20.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 647 Tm (20.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 647 Tm (Kindle Svcs*AB1234567 SEATTLE) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 647 Tm (USD) Tj ET
+BT /F1 8 Tf 1 0 0 1 391.77 647 Tm (-9,99) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 647 Tm (-104,37) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 636 Tm (21.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 636 Tm (22.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 636 Tm (APOTEK 1,SENTRUM OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 636 Tm (-87,50) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 636 Tm (-87,50) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 625 Tm (22.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 625 Tm (23.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 625 Tm (GODISBUTIKKEN GOTEBORG) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 625 Tm (SEK) Tj ET
+BT /F1 8 Tf 1 0 0 1 382.87 625 Tm (-450,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 625 Tm (-462,15) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 614 Tm (22.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 614 Tm (25.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 614 Tm (SPILLEHALLEN OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 614 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 614 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 603 Tm (22.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 603 Tm (25.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 603 Tm (SPILLEHALLEN OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 603 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 603 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 592 Tm (22.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 592 Tm (25.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 592 Tm (SPILLEHALLEN OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 592 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 592 Tm (-20,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 581 Tm (25.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 581 Tm (26.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 581 Tm (FLYSELSKAPET-000000000 Norway) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 581 Tm (-8.450,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 581 Tm (-8.450,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 570 Tm (28.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 570 Tm (29.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 570 Tm (Kindle Svcs*CD7654321 SEATTLE) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 570 Tm (USD) Tj ET
+BT /F1 8 Tf 1 0 0 1 391.77 570 Tm (-4,99) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 570 Tm (-52,14) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 559 Tm (31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 559 Tm (31.03.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 559 Tm (EasyPark AS easypark.no) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 559 Tm (-72,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 559 Tm (-72,00) Tj ET
+BT /F2 8 Tf 1 0 0 1 43 543 Tm (Sum denne periode for Kari Nordmann) Tj ET
+BT /F2 8 Tf 1 0 0 1 514.75 543 Tm (-18.429,49) Tj ET
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000134 00000 n 
+0000000231 00000 n 
+0000000333 00000 n 
+0000000391 00000 n 
+0000000527 00000 n 
+0000002417 00000 n 
+0000002553 00000 n 
+0000009043 00000 n 
+0000009181 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R /Info 5 0 R >>
+startxref
+13640
+%%EOF

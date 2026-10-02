@@ -1,0 +1,16 @@
+Utført dato;Bokført dato;Rentedato;Beskrivelse;Type;Undertype;Fra konto;Avsender;Til konto;Mottakernavn;Beløp inn;Beløp ut;Valuta;Status;Melding/KID/Fakt.nr
+06.05.2026;06.05.2026;06.05.2026;ARBEIDSGIVER AS;Betaling innland;Overføring fra annen konto;1111 22 33334;ARBEIDSGIVER AS;9000 12 34567;Kari Nordmann;12500.50;;NOK;Bokført;"Fra: ARBEIDSGIVER AS Betalt: 06.05.26
+12.500,50"
+04.05.2026;04.05.2026;04.05.2026;KORTSELSKAPET AS, OSLOFIL.NUF (55550000111);Betaling innland;Utgående betaling;9000 12 34567;Brukskonto;5555 00 00111;KORTSELSKAPET AS, OSLOFIL.NUF;;-3000;NOK;Bokført;Til: KORTSELSKAPET AS, OSLOFIL.NUF Betalt: 04.05.26
+04.05.2026;04.05.2026;04.05.2026;Til konto: 9000 12 99999;Betaling innland;Overføring til annen konto;9000 12 34567;Brukskonto;9000 12 99999;;;-20000;NOK;Bokført;90001234567
+04.05.2026;04.05.2026;04.05.2026;Til konto: 9000 12 88888;Betaling innland;Utgående betaling;9000 12 34567;Brukskonto;9000 12 88888;;;-7500;NOK;Bokført;Fellesutgifter
+04.05.2026;04.05.2026;04.05.2026;ARBEIDSGIVER AS;Betaling innland;Overføring fra annen konto;1111 22 33334;ARBEIDSGIVER AS;9000 12 34567;Kari Nordmann;30000.00;;NOK;Bokført;"Fra: ARBEIDSGIVER AS Betalt: 04.05.26
+30.000,00"
+;;;;;;;;;;;;;;
+Total beløp inn på konto:;;42 500,50 NOK;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+Totalt beløp ut av konto:;;-30 500,00 NOK;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+Inngående saldo pr. 01.05.2026:;;25 000,00 NOK;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+Utgående  saldo pr. 10.05.2026:;;37 000,50 NOK;;;;;;;;;;;;

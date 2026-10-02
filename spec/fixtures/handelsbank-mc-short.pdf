@@ -1,0 +1,137 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Producer (ynab-ofx fixture builder) >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1875 >>
+stream
+BT /F2 8 Tf 1 0 0 1 496 790 Tm (Platinum Kredittkort) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 775 Tm (Retur: Handelsbanken, Postboks 1342 Vika, 0113 Oslo) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 766 Tm (Fakturanr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 490.73 766 Tm (10000000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 757 Tm (Fakturadato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 757 Tm (20.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 748 Tm (Forfallsdato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 748 Tm (05.10.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 739 Tm (Periode:) Tj ET
+BT /F1 8 Tf 1 0 0 1 483.62 739 Tm (21.08.26 - 20.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 730 Tm (KID) Tj ET
+BT /F1 8 Tf 1 0 0 1 499.62 730 Tm (100000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 721 Tm (Bankkonto) Tj ET
+BT /F1 8 Tf 1 0 0 1 504.07 721 Tm (90001234575) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 712 Tm (Side) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.76 712 Tm (1 av 2) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 730 Tm (Kari Nordmann) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 721 Tm (Storgata 1) Tj ET
+BT /F1 8 Tf 1 0 0 1 57 712 Tm (0155 OSLO) Tj ET
+BT /F1 8 Tf 1 0 0 1 392 690 Tm (Kredittramme         kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 517.42 690 Tm (50.000,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 681 Tm (- Benyttet kreditt      kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 681 Tm (-12,40) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 640 Tm (Overført saldo fra forrige periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 512.97 640 Tm (\(tilgode\)) Tj ET
+BT /F1 8 Tf 1 0 0 1 528.54 631 Tm (750,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 622 Tm (Innbetalinger denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 537.43 622 Tm (0,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 613 Tm (Forbruk denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 525.87 613 Tm (-762,40) Tj ET
+BT /F2 8 Tf 1 0 0 1 57 604 Tm (=  Saldo i vår favør) Tj ET
+BT /F2 8 Tf 1 0 0 1 530.32 604 Tm (-12,40) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 586 Tm (Minimum å betale - forfall 05.10.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 537.43 586 Tm (0,00) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2717 >>
+stream
+BT /F2 8 Tf 1 0 0 1 496 777 Tm (Platinum Kredittkort) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 768 Tm (Fakturanr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 490.73 768 Tm (10000000000001) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 759 Tm (Fakturadato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 759 Tm (20.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 750 Tm (Forfallsdato:) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 750 Tm (05.10.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 741 Tm (Periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 483.62 741 Tm (21.08.26 - 20.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 732 Tm (Kontonr.:) Tj ET
+BT /F1 8 Tf 1 0 0 1 504.07 732 Tm (90001234575) Tj ET
+BT /F1 8 Tf 1 0 0 1 383 723 Tm (Side) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.76 723 Tm (2 av 2) Tj ET
+BT /F2 6 Tf 1 0 0 1 44 690 Tm (Nominell rente er 15,9%) Tj ET
+BT /F1 6 Tf 1 0 0 1 44 675 Tm (Betaler alt ved første faktura) Tj ET
+BT /F1 6 Tf 1 0 0 1 221.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 373.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 411.65 675 Tm (15.000) Tj ET
+BT /F1 6 Tf 1 0 0 1 476.65 675 Tm (15.000) Tj ET
+BT /F1 6 Tf 1 0 0 1 562.66 675 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 44 666 Tm (Betaling over 3 måneder) Tj ET
+BT /F1 6 Tf 1 0 0 1 214.99 666 Tm (396) Tj ET
+BT /F1 6 Tf 1 0 0 1 373.66 666 Tm (0) Tj ET
+BT /F1 6 Tf 1 0 0 1 411.65 666 Tm (15.396) Tj ET
+BT /F1 6 Tf 1 0 0 1 479.99 666 Tm (5.132) Tj ET
+BT /F1 6 Tf 1 0 0 1 547.65 666 Tm (17.07%) Tj ET
+BT /F2 8 Tf 1 0 0 1 44 640 Tm (Kari Nordmann, Transaksjoner denne periode) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 625 Tm (Bruks) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 625 Tm (Bokført) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 625 Tm (Brukersted) Tj ET
+BT /F1 8 Tf 1 0 0 1 330 625 Tm (Valuta) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.76 625 Tm (Beløp) Tj ET
+BT /F1 8 Tf 1 0 0 1 427.76 625 Tm (Gebyr) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.64 625 Tm (Beløp kr) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 618 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 618 Tm (dato) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 605 Tm (29.08.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 605 Tm (03.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 605 Tm (FLYSELSKAPET Norway) Tj ET
+BT /F1 8 Tf 1 0 0 1 378.86 605 Tm (3.200,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 521.86 605 Tm (3.200,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 594 Tm (03.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 594 Tm (03.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 594 Tm (90001234567) Tj ET
+BT /F1 8 Tf 1 0 0 1 376.2 594 Tm (-3.950,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 519.2 594 Tm (-3.950,00) Tj ET
+BT /F1 8 Tf 1 0 0 1 43 583 Tm (19.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 85 583 Tm (20.09.26) Tj ET
+BT /F1 8 Tf 1 0 0 1 133 583 Tm (NETTBUTIKKEN.FR PARIS) Tj ET
+BT /F1 8 Tf 1 0 0 1 387.32 583 Tm (-12,40) Tj ET
+BT /F1 8 Tf 1 0 0 1 530.32 583 Tm (-12,40) Tj ET
+BT /F2 8 Tf 1 0 0 1 43 567 Tm (Sum denne periode for Kari Nordmann) Tj ET
+BT /F2 8 Tf 1 0 0 1 525.87 567 Tm (-762,40) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000384 00000 n 
+0000000520 00000 n 
+0000002447 00000 n 
+0000002583 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info 5 0 R >>
+startxref
+5352
+%%EOF

@@ -23,8 +23,8 @@ module YnabOfx
         warn "input dir not found: #{input_dir}"
         return 66
       end
-      FileUtils.rm_rf(output_dir)
       FileUtils.mkdir_p(output_dir)
+      remove_stale_ofx(output_dir)
 
       input_root = Pathname.new(input_dir)
       files = Dir.glob(File.join(input_dir, "**", "*")).sort.select do |p|
@@ -74,6 +74,12 @@ module YnabOfx
     end
 
     private
+
+    # Clears .ofx files from a previous run so the output only reflects the
+    # current input. Anything else in the directory is left alone.
+    def remove_stale_ofx(output_dir)
+      Dir.glob(File.join(output_dir, "**", "*.ofx")).each { |f| File.delete(f) }
+    end
 
     def mirrored_dir(output_dir, input_root, path)
       rel = Pathname.new(path).relative_path_from(input_root).dirname

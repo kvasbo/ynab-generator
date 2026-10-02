@@ -61,7 +61,7 @@ module YnabOfx
               <STMTRS>
                 <CURDEF>#{statement.currency}</CURDEF>
                 <BANKACCTFROM>
-                  <BANKID>HANDNOKK</BANKID>
+                  <BANKID>#{bank_id}</BANKID>
                   <ACCTID>#{escape(statement.account_id)}</ACCTID>
                   <ACCTTYPE>CHECKING</ACCTTYPE>
                 </BANKACCTFROM>
@@ -140,6 +140,14 @@ module YnabOfx
 
     def format_amount(amount)
       sprintf("%.2f", amount)
+    end
+
+    # The first four digits of a Norwegian account number (BBBB.CC.NNNNN) are
+    # the bank's registration number, the closest thing Norway has to the
+    # routing number OFX expects here.
+    def bank_id
+      digits = statement.account_id.to_s.delete("^0-9")
+      digits.length == 11 ? digits[0, 4] : "0000"
     end
 
     def escape(str)

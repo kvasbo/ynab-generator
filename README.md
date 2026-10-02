@@ -87,7 +87,7 @@ SKIP sb1-sparekonto.csv: no transactions
 bundle exec rspec
 ```
 
-Tests run on GitHub Actions for Ruby 3.2, 3.3. 3.4 and 4.0.
+Tests run on GitHub Actions for Ruby 3.2, 3.3, 3.4 and 4.0.
 
 Each parser has a spec in `spec/parsers/` that uses small files built inside
 the test for edge cases, plus a complete export from `spec/fixtures/`. The

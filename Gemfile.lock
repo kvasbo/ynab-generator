@@ -29,7 +29,6 @@ GEM
       hashery (~> 2.0)
       ttfunk
     racc (1.8.1)
-    rexml (3.4.4)
     rspec (3.13.2)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -63,7 +62,6 @@ PLATFORMS
 DEPENDENCIES
   csv (~> 3.3)
   pdf-reader (~> 2.12)
-  rexml (~> 3.4)
   rspec (~> 3.13)
   rubyXL (~> 3.4)
 
@@ -84,7 +82,6 @@ CHECKSUMS
   nokogiri (1.19.4-x86_64-linux-musl) sha256=17dfb7c1fa194ae02fbf7c51a7afc8d278045ab3fdacfd86f91d02d7b274470b
   pdf-reader (2.16.0) sha256=bf1b5564c085264d8279bde3cf1467778b75841494d20c0fe7da3dad475f3732
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rspec (3.13.2) sha256=206284a08ad798e61f86d7ca3e376718d52c0bc944626b2349266f239f820587
   rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
   rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
